@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 export default function Congrats(props){
     if(props.success){
       return(
-        <div data-test="congrats-message">
+        <div data-test="congrats-message" className="alert alert-success">
           <span data-test='component-congrats'>Congratulations! You guessed the word!</span>
         </div>
       )
